@@ -12,7 +12,7 @@
     <header class="header">
         <img src="Image/logo2.svg" alt="Logo" class="logo">
 
-        <h1>TIPE - Journal de Bord</h1>
+        <h1>TIPE - Fabrice Tricon - MP2I</h1>
     </header>
 
     <h2>Thème</h2>
@@ -21,27 +21,119 @@
 
     <h2>Sujet</h2>
     <p>
-        Optimisation de la quantification d'un signal audio numérique
+        Échantillonnage adaptatif d'un signal audio
     </p>
 
     <h2>Problématique</h2>
     <p>
-        La quantification uniforme, universellement utilisée dans les convertisseurs analogique-numérique, alloue le même nombre de bits à toutes les amplitudes indépendamment de leur probabilité d'occurrence et de leur perceptibilité par l'oreille humaine. Dans quelle mesure des stratégies de quantification non uniforme (loi \(\mu\)) ou adaptative (ADPCM) permettent-elles de réduire le débit binaire nécessaire à une fidélité perçue fixée — et à quel coût en complexité algorithmique et en robustesse au bruit de fond ?
+        Dans quelle mesure un échantillonnage adaptatif fondé sur le contenu local du signal permet-il d'optimiser le compromis entre fidélité de reconstruction et sobriété de représentation numérique d'un signal audio ?
     </p>
 
-    <h2>Avancement</h2>
-    <ul>
-        <li>Recherche bibliographique</li>
-        <li>Premières expériences</li>
-        <li>Analyse des résultats</li>
-    </ul>
-
-    <h2>Prochaines étapes</h2>
+    <h2>Plan</h2>
     <ol>
-        <li>Améliorer le modèle</li>
-        <li>Réaliser de nouvelles mesures</li>
-        <li>Préparer la présentation orale</li>
+        <li>Le signal audio numérique et ses limites classiques
+            <ul>
+                <li>Le théorème de Shannon-Nyquist</li>
+                <li>Le bruit de quantification</li>
+                <li>Analyse spectro-temporelle de signaux réels</li>
+            </ul>
+        </li>
+        <li>Conception et implémentation d'un échantillonneur adaptatif
+            <ul>
+                <li>Définition d'un critère d'activité locale</li>
+                <li>Architecture de l'algorithme</li>
+                <li>Implémentation en C</li>
+            </ul>
+        </li>
+        <li>Évaluation expérimentale et limites
+            <ul>
+                <li>Métriques d'évaluation</li>
+                <li>Résultats selon le type de signal</li>
+                <li>Discussion et limites</li>
+            </ul>
+        </li>
     </ol>
+
+    <h1>Journal de Bord</h1>
+
+    <h2>Jour 1 - 26/01/2026</h2>
+    <p>
+        Lecture des documents officiels concernants le TIPE
+    </p>
+
+    <h2>Jour 2 - 30/01/2026</h2>
+    <p>
+        Brain-storming
+        <br>
+        Définition des termes : Sobriété, Efficacité et Optimisation 
+        <br>
+        Propisitions de sources pour effectuer nos recherches
+    </p>
+
+    <h2>Jour 3 - 02/02/2026</h2>
+    <p>
+        Bibliographie
+        <br>
+        Recheche de sujets sur le thème de l'acoustique
+        <br>
+        Lecture de thèses
+    </p>
+
+    <h2>Jour 4 - 06/02/2026</h2>
+    <p>
+        Bibliographie
+        <br>
+        Recherches sur la conversion de signaux analogiques vers numériques (audio)
+    </p>
+
+    <h2>Jour 5 - 09/02/2026</h2>
+    <p>
+        Bibliographie
+        <br>
+        Visionnage de vidéos sur l'échantillonnage
+    </p>
+
+    <h2>Jour 6 - 13/02/2026</h2>
+    <p>
+        Présentation orale des sujets de TIPE de deux MPIs (thème : cycles et boucles) :
+        <br>
+        - Optimisation du nombre de gardes (caméras) dans un espace en forme de polygone
+        <br>
+        - Cryptage et décryptage d'un texte grâce à une clé
+    </p>
+
+    <h2>Jour 7 - 02/03/2026</h2>
+    <p>
+        Bibliographie
+        <br>
+        Lecture de thèses sur l'absorption acoustique
+    </p>
+
+    <h2>Jour 8 - 06/03/2026</h2>
+    <p>
+        Présentation orale d'un ancien MP (option info) sur sa thèse et sur des propositions de sujets de TIPE en rapport avec ses recherches
+    </p>
+
+    <h2> Jour 9 - 09/03/2026</h2>
+    <p>
+        Bibliographie
+        <br>
+        Lecture de thèse sur l'optimisation de qualité d'un signal audio
+    </p>
+    
+    <h2>Jour 10 - 13/03/2026</h2>
+    <p>
+        Bibliographie
+        <br>
+        Échantillonnage adaptatif
+    </p>
+
+    <h2>Jour 11 - 16/03/2026</h2>
+    <p>
+        Bibliographie
+        <br>
+        Lecture de thèses sur l'échantillonnage adaptatif
+    </p>
 
 </body>
 </html>
